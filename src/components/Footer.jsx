@@ -94,14 +94,16 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <span className="text-orange-400">📞</span>
-                <a href="tel:+917319942747" className="text-gray-400 hover:text-orange-400 transition-colors">
+                <a href="tel:+917319942747" className="text-gray-300 hover:text-orange-400
+                 transition-colors">
                   073199 42747
                 </a>
               </li>
               <li className="flex items-center gap-3">
-                <span className="text-orange-400">✉️</span>
-                <a href="mailto:tokor@gmail.com" className="text-gray-400 hover:text-orange-400 transition-colors">
-                  tokor@gmail.com
+                <span className="text-orange-400">📩</span>
+                <a href="mailto:tokor@gmail.com" className="text-gray-300  hover:text-orange-400
+                 transition-colors">
+                  tokorbusiness49@gmail.com
                 </a>
               </li>
               
@@ -109,7 +111,7 @@ const Footer = () => {
 
             {/* Google Reviews badge */}
             <a
-              href="https://maps.google.com"
+              href="https://www.google.com/search?q=tokor+patna+reviews&sca_esv=2aa300c80f7be1f4&sxsrf=ANbL-n4ER3t-DX6d6fn7Kf81fHQNUsxXMA%3A1781273035150&ei=yxEsaorkCO3ZseMP6_2VwQw&biw=1366&bih=633&oq=tokor+patna+re&gs_lp=Egxnd3Mtd2l6LXNlcnAiDnRva29yIHBhdG5hIHJlKgIIADIEECMYJzICECYyCBAAGIAEGKIEMgUQABjvBTIFEAAY7wUyBRAAGO8FMgUQABjvBUjqGFCgAliTDHABeACQAQCYAY8CoAHeBaoBBTAuMS4yuAEByAEA-AEBmAIEoAL5BcICBxAjGLADGCfCAg4QLhiABBjHARivARiwA8ICDhAAGIAEGIoFGIYDGLADwgIIEAAY7wUYsAPCAgYQABgWGB7CAgsQABiABBiKBRiGA5gDAIgGAZAGCpIHBTEuMS4yoAfGErIHBTAuMS4yuAfzBcIHBTAuMS4zyAcTgAgB&sclient=gws-wiz-serp"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-5"

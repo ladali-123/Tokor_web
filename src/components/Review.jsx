@@ -1,6 +1,9 @@
 import { Star } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
+import rpic1 from '../assets/rpic1.png'
+import rpic2 from '../assets/rpic2.png'
+import rpic3 from '../assets/rpic3.png'
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -8,36 +11,36 @@ import "swiper/css/pagination";
 const reviews = [
   {
     id: 1,
-    name: "Priya Sharma",
-    image: "https://randomuser.me/api/portraits/women/44.jpg",
+    name: "Anshuman Raj",
+    image: rpic1,
     review:
-      "The open kitchen experience was amazing. Everything felt warm, personal and beautifully organized.",
+      "Outstanding place to chill out with perfect ambiance and service 🙌.",
   },
   {
     id: 2,
-    name: "Rahul Verma",
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
+    name: "Aman Prakash",
+    image: rpic2,
     review:
       "Perfect place for birthday celebrations. Great ambience, delicious food and wonderful hospitality.",
   },
   {
     id: 3,
-    name: "Anjali Singh",
-    image: "https://randomuser.me/api/portraits/women/68.jpg",
+    name: "Rammy Tech",
+    image: rpic3,
     review:
-      "Stayed here with family and absolutely loved it. Peaceful atmosphere and very welcoming hosts.",
+      "Also from the decor to the amenities, everything exceeded our expectations.",
   },
   {
     id: 4,
     name: "Amit Kumar",
-    image: "https://randomuser.me/api/portraits/men/45.jpg",
+    image: "https://i.pinimg.com/736x/70/3d/53/703d53bd9cbed9966f228de1a69de679.jpg",
     review:
       "Hosted a corporate meetup at TOKOR. The setup, service and overall experience exceeded expectations.",
   },
   {
     id: 5,
     name: "Neha Gupta",
-    image: "https://randomuser.me/api/portraits/women/65.jpg",
+    image: "https://i.pinimg.com/736x/bb/f4/f8/bbf4f8626c33dcedc73a58e28afe4bf2.jpg",
     review:
       "A hidden gem. Beautiful location and the open kitchen concept makes it truly unique.",
   },
