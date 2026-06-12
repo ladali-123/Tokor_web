@@ -10,7 +10,7 @@ import Customer from './components/Customer';
 import Contact from './components/Contact';
 import Review from './components/Review';
 import Footer from './components/Footer';
-
+import Gallery from './components/Gallery';
 function App() {
   return (
     <>
@@ -36,6 +36,7 @@ function App() {
         <Route path="/customer" element={<Customer />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/review" element={<Review />} />
+        <Route path="/Gallery" element={<Gallery/>}/>
       </Routes>
 
       <Footer />

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 
 const Navbar = () => {
@@ -40,20 +41,20 @@ const Navbar = () => {
                     {/* Desktop Menu */}
                     <div className="hidden md:flex items-center space-x-8 h-full">
                         {navItems.map((item) => (
-                            <a
+                            <Link
                                 key={item.name}
-                                href={item.href}
+                                to={item.href}
                                 className="text-gray-700 hover:text-[#0A2A6B] text-lg font-semibold transition duration-200 relative group"
                             >
                                 {item.name}
                                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#F4B400] transition-all duration-300 group-hover:w-full"></span>
-                            </a>
+                            </Link>
                         ))}
 
                         {/* Button */}
-                        <a
-                            href="/slotbooking"
-                           className="
+                        <Link
+                            to="/slotbooking"
+                            className="
 px-5 py-2
 rounded-full
 text-base
@@ -69,7 +70,7 @@ duration-300
 "
                         >
                             Book a Slot
-                        </a>
+                        </Link>
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -93,22 +94,22 @@ duration-300
                 {isOpen && (
                     <div className="md:hidden mt-2 pb-4 space-y-3 border-t border-gray-100 pt-4">
                         {navItems.map((item) => (
-                            <a
+                            <Link
                                 key={item.name}
-                                href={item.href}
+                                to={item.href}
                                 className="block py-2 px-3 text-gray-700 hover:bg-blue-50 hover:text-[#0A2A6B] rounded-md text-lg font-medium"
                                 onClick={() => setIsOpen(false)}
                             >
                                 {item.name}
-                            </a>
+                            </Link>
                         ))}
-                        <a
-                            href="/slotbooking"
+                        <Link
+                            to="/slotbooking"
                             className="block text-center px-6 py-2 rounded-full text-lg font-bold text-white bg-[linear-gradient(135deg,#0A2A6B_0%,#163C8C_45%,#F4B400_100%)] shadow-lg hover:scale-105 transition-all duration-300"
                             onClick={() => setIsOpen(false)}
                         >
                             Book a Slot
-                        </a>
+                        </Link>
                     </div>
                 )}
             </div>
