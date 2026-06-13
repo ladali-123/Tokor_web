@@ -95,7 +95,7 @@ const Navbar = () => {
                     ))}
                     <div className="pt-2">
                         <Link
-                            to="/slotbooking"
+                            to="/book-a-slot"
                             className="block text-center px-6 py-2.5 rounded-full text-lg font-bold text-white bg-[linear-gradient(135deg,#0A2A6B_0%,#163C8C_45%,#F4B400_100%)] shadow-lg hover:scale-105 transition-all duration-300"
                             onClick={() => setIsOpen(false)}
                         >

@@ -61,8 +61,9 @@ const HeroSection = () => {
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-3">
           <a
-            href="/slotbooking"
-            className="px-6 sm:px-8 py-2 sm:py-2.5 bg-[#F4B400] text-[#0A1628] text-xs sm:text-sm font-bold uppercase tracking-widest rounded-sm hover:bg-[#ffcc30] hover:-translate-y-1 transition-all duration-300"
+            href="/book-a-slot"
+            className="px-6 sm:px-8 py-2 sm:py-2.5 bg-[#F4B400] text-[#0A1628] text-xs sm:text-sm font-bold
+             uppercase tracking-widest rounded-sm hover:bg-[#ffcc30] hover:-translate-y-1 transition-all duration-300"
           >
             Book a Slot
           </a>

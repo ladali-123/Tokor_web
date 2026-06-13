@@ -4,6 +4,7 @@ import pic2 from '../assets/pic2.png';
 import pic3 from '../assets/pic3.png';
 import pic4 from '../assets/pic4.png';
 import pic5 from '../assets/pic5.png';
+import pic7 from '../assets/pic7.png';
 
 const photos = [
   { id: 1, src: pic1 },
@@ -11,7 +12,7 @@ const photos = [
   { id: 3, src: pic3},
   { id: 4, src: pic4 },
   { id: 5, src: pic5 },
-  { id: 6, src: "https://images.unsplash.com/photo-1543007631-283050bb3e8c?w=800" },
+  { id: 6, src: pic7 },
 ];
 
 const Customers = () => {
