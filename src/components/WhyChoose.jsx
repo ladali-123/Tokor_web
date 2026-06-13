@@ -142,7 +142,7 @@ const WhatMakesUsSpecial = () => {
             Why TOKOR
           </span>
 
-          <h2 className="text-3xl md:text-4xl font-black text-[#0A1628] mt-4 leading-tight">
+          <h2 className="text-3xl md:text-4xl font-black text-[#0B2A6F] mt-4 leading-tight">
             What Makes Us{' '}
             <span className="text-[#F4B400]">Special</span>
           </h2>

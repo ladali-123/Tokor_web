@@ -174,18 +174,18 @@ export default function Gallery() {
   };
 
   return (
-    <section ref={sectionRef} className="bg-[#F5F0E4] py-6 sm:py-8 font-serif px-16">
+    <section ref={sectionRef} className="bg-[#F5F0E4] py-6 sm:py-8 font-serif px-4 md:px-16">
 
       <div className="text-center mb-10 sm:mb-8 px-2">
         <p
           className="text-[#F5C518] text-[0.72rem] sm:text-[0.78rem] font-sans tracking-[0.22em] 
-          uppercase mb-2"
+          uppercase mb-1"
           style={{ opacity: visible ? 1 : 0, transition: "opacity 0.9s ease" }}
         >
           — Our Space, Your Memories —
         </p>
         <h2
-          className="text-[#0a0e1a] text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight m-0"
+          className="text-[#0a0e1a] text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight m-0"
           style={{
             opacity   : visible ? 1 : 0,
             transform : visible ? "translateY(0)" : "translateY(22px)",
@@ -265,7 +265,8 @@ export default function Gallery() {
           onTouchEnd={onTouchEnd}
         >
           <button
-            className="fixed left-3 sm:left-6 top-1/2 -translate-y-1/2 z-[60] w-11 h-11 rounded-full bg-[#F5C518]/10 border border-[#F5C518]/40 text-[#F5C518] text-3xl flex items-center justify-center hover:bg-[#F5C518]/25 transition-colors"
+            className="fixed left-3 sm:left-6 top-1/2 -translate-y-1/2 z-[60] w-11 h-11 rounded-full bg-[#F5C518]/10 
+            border border-[#F5C518]/40 text-[#F5C518] text-3xl flex items-center justify-center hover:bg-[#F5C518]/25 transition-colors"
             onClick={e => { e.stopPropagation(); setLightbox(p => (p - 1 + images.length) % images.length); }}
           >‹</button>
 

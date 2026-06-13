@@ -16,11 +16,12 @@ const photos = [
 
 const Customers = () => {
   return (
-    <section className="py-8 bg-[#f5f7e4] overflow-hidden px-12">
+    <section className="py-8 bg-[#f5f7e4] overflow-hidden px-4 md:px-12">
       <div className="max-w-[1600px] mx-auto px-4 lg:px-8">
 
         <div className="text-center mb-10">
-          <span className="inline-block px-4 py-1 rounded-full text-[11px] font-bold tracking-[0.18em] uppercase border border-[#D4A017]/30 bg-[#D4A017]/10 text-[#0B2A6F]">
+          <span className="inline-block px-4 py-1 rounded-full text-[11px] font-bold tracking-[0.18em]
+           uppercase border border-[#D4A017]/30 bg-[#D4A017]/10 text-[#0B2A6F]">
             Our Gallery
           </span>
 

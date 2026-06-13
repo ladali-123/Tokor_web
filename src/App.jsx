@@ -11,6 +11,7 @@ import Contact from './components/Contact';
 import Review from './components/Review';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
+import Slot from './components/Slot';
 function App() {
   return (
     <>
@@ -37,6 +38,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/review" element={<Review />} />
         <Route path="/Gallery" element={<Gallery/>}/>
+        <Route path ="/book-a-slot" element={<Slot/>}/>
       </Routes>
 
       <Footer />
